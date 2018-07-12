@@ -1,0 +1,208 @@
+[class^="headerBrand"] {
+    display: none;
+}
+.developers{
+    top: 0;
+}
+.sidebar.scroller {
+    display: none;
+}
+.section:nth-child(3) .input-group.half:first-child {
+    display: none;
+}
+
+.section:nth-child(2) .input-group.half:last-child {
+    display: none;
+}
+
+.memberOnline {
+    color: #b9bbbe;
+    display: flex;
+    height: 40px;
+    margin: 1px 0 1px 8px;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.contentWrapper {
+    -webkit-box-align: center;
+    -webkit-box-flex: 1;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    outline: 0;
+    padding: 8px;
+}
+
+.avatarWrapper {
+    margin-right: 10px;
+}
+
+.wrapper {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    position: relative;
+}
+.image {
+    height: 30px;
+    width: 30px;
+    background-clip: padding-box;
+    background-color: none;
+    background-position: 50%;
+    background-size: 100%;
+    height: 100%;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.online {
+    border-color: #2f3136;
+    transition: width .2s ease,right .2s ease,background-color .2s ease;
+}
+
+.memberInner {
+    width: 170px;
+}
+
+.nameTag {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    line-height: 17px;
+}
+
+.usernameOnline {
+    font-weight: 500;
+    font-size: 16px;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.activityText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.activity {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: hsla(216,4%,74%,.6);
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.activityText strong {
+    font-weight: 700;
+}
+
+.activityIcon {
+    margin-left: 2px;
+    min-height: 16px;
+    min-width: 16px;
+}
+
+.activityUserPopout{
+    max-width: 250px;
+    background-color: #6d83d0;
+    padding: 10px;
+}
+
+.headerTextNormal {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 12px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.bodyNormal {
+    -webkit-box-align: start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.assets {
+    position: relative;
+}
+
+.assetsLargeImageUserPopout {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    display: block;
+    object-fit: cover;
+    -webkit-user-drag: none;
+}
+
+.assetsSmallImageUserPopout {
+    border: 2px solid #6d83d0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    bottom: -6px;
+    position: absolute;
+    right: -6px;
+    -webkit-user-drag: none;
+}
+
+.contentImagesUserPopout {
+    color: hsla(0,0%,100%,.8);
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.nameNormal {
+    margin-bottom: 2px;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.details {
+    color: hsla(0,0%,100%,.8);
+    margin-bottom: 2px;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.state {
+    margin-bottom: 2px;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

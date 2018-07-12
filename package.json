@@ -1,0 +1,29 @@
+{
+  "name": "discord-rpc-customizer",
+  "version": "1.0.0",
+  "description": "A customizer for discord rich presence",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "discord",
+    "rich",
+    "presence"
+  ],
+  "author": "THEN00P",
+  "license": "MIT",
+  "dependencies": {
+    "discord-rpc": "^3.0.0-beta.8",
+    "discord.js": "^11.3.2",
+    "electron": "^1.8.7"
+  },
+  "devDependencies": {
+    "electron": "^1.8.2-beta.5",
+    "electron-packager": "^12.1.0"
+  }
+}
